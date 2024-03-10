@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ body{
+    height: 100vh;
+    background-image:url(https://png.pngtree.com/thumb_back/fh260/background/20230408/pngtree-dust-smoke-colorful-background-image_2164092.jpg
+    );
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .container{
+    padding: 1rem;
+    max-width: 900px;
+    height: 250px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(20px);
+ }
+
+ .time,.h{
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: #f8f8f8;
+ }
+
+ p{
+    color: #f8f8f8;
+ }
+
+ 
+ button{
+    align-items: baseline;
+    padding: 0.4rem 1rem;
+    margin: 0 0.2rem;
+    border-radius: 10px;
+    border: 1px solid #f8f8f8;
+    font-size: 1.1rem;
+
+ }
+
+ button:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    color: #f8f8f8;
+ }
+
+
+ .footer{
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   width: 100%;
+   padding: 10px;
+   font-size: 15px;
+}
+
+.fa-github{
+   color: var(--font);
+   font-size: 24px;
+   transition: transform 0.3s ease-in-out;
+}
+
